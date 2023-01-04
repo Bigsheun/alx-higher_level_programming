@@ -2,4 +2,5 @@
 for a in range(97, 123):
     if a == 113 or a == 101:
         continue
-    print(f"{a:c}", end="")
+    print("{:c}".format(a), end="")
+

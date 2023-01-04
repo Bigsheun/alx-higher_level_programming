@@ -30,7 +30,8 @@ listint_t *insert_node(listint_t **head, int number)
 		return (node);
 	}
 
-	while (temp->next != NULL)
+	
+	while (temp->next != NULL && temp->next->n < number)
 	{
 		number2 = temp->next->n;
 		if (number2 < number)

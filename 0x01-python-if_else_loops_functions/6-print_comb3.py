@@ -2,6 +2,6 @@
 for num in range(0, 10):
     for num2 in range(num + 1, 10):
         if num == 8 and num2 == 9:
-            print(f"{num:d}{num2:d}")
+            print("{:d}{:d}".format(num, num2))
         elif num < num2:
-            print(f"{num:d}{num2:d}", end=", ")
+            print("{:d}{:d}".format(num, num2), end=", ")

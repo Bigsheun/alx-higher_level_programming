@@ -1,5 +1,16 @@
 # 0x01. Python - if/else, loops, functions
 
+- __[GitHub Account](github.com/Bigsheun)__ - high quality software projects
+
+
+You will like those projects!
+
+
+ ![A picture of Bigsheun](https://avatars.githubusercontent.com/u/88635898?s=120&v=4 "Bigsehun")
+___
+
+
+
 ## Description
 What you should learn from this project:
 
@@ -23,23 +34,23 @@ What are the arithmetic operators and how to use them
 ---
 
 ### [0. Positive anything is better than negative nothing](./0-positive_or_negative.py)
-* This program will assign a random signed number to the variable number each time it is executed. Complete the source code in order to print whether the number stored in the variable number is positive or negative.
+* Get a random integer beyween -10 and 10. Print whether the number is positive or negative.
 
 
 ### [1. The last digit](./1-last_digit.py)
-* This program will assign a random signed number to the variable number each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable number.
+* Print the last digit of random integer.
 
 
 ### [2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](./2-print_alphabet.py)
-* Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+* A program that prints the alphabet, in lowercase, not followed by a new line.
 
 
 ### [3. When I was having that alphabet soup, I never thought that it would pay off](./3-print_alphabt.py)
-* Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+* Write a program that prints the in lowercase, not followed by a new line.
 
 
 ### [4. Hexadecimal printing](./4-print_hexa.py)
-* Write a program that prints all numbers from 0 to 98 in decimal and in hexadecimal (as in the following example)
+* Write a program that prints all numbers from 0 to 98 in decimal and their hexadecimal equivalent
 
 
 ### [5. 00...99](./5-print_comb2.py)
@@ -83,7 +94,7 @@ What are the arithmetic operators and how to use them
 
 
 ### [15. Remove at position](./101-remove_char_at.py)
-* Write a function that creates a copy of the string, removing the character at the position n (not the Python way, the “C array index”).
+* Write a function that creates a copy of the string, removing the character at the position n (“C array index” method).
 
 
 ### [16. ByteCode -> Python #2](./102-magic_calculation.py)
@@ -91,5 +102,3 @@ What are the arithmetic operators and how to use them
 
 ---
 
-## Author
-* **Derrick Gee** - [kai-dg](https://github.com/kai-dg)

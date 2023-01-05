@@ -8,13 +8,9 @@ if __name__ == "__main__":
     operators = ["+", "-", "*", "/"]
     if argv_count != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
-        for i in argv:
-            print(i)
         exit(1)
     elif sys.argv[2] not in operators:
         print("Unknown operator. Available operators: +, -, * and /")
-        for i in argv:
-            print(i)
         exit(1)
 
     a = int(sys.argv[1])

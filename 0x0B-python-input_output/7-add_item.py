@@ -10,8 +10,11 @@ file = "add_item.json"
 json_list = []
 if os.path.exists(file):
     json_list = load_from_json_file(file)
+except FileNotFoundError:
+    json_list = []
 
-for i in range(1, len(sys.argv)):
+argc = len(sys.argv)
+for i in range(1, argc):
     json_list.append(sys.argv[i])
 
 save_to_json_file(json_list, file)

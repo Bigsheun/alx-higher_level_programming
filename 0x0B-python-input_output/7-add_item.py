@@ -10,7 +10,7 @@ file = "add_item.json"
 json_list = []
 if os.path.exists(file):
     json_list = load_from_json_file(file)
-except FileNotFoundError:
+else:
     json_list = []
 
 argc = len(sys.argv)

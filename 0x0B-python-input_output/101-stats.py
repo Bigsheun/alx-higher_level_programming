@@ -15,7 +15,7 @@ if __name__ == "__main__":
             code = int(words[-2])
             if code in codes:
                 codes[code] += 1
-        except:
+        except Exception(e):
             pass
 
     def print_stats():
@@ -24,6 +24,7 @@ if __name__ == "__main__":
         for k in sorted(codes.keys()):
             if codes[k]:
                 print("{}: {}".format(k, codes[k]))
+
     i = 1
     try:
         for line in sys.stdin:

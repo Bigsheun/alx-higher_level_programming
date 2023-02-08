@@ -1,0 +1,4 @@
+*.txt
+resources/
+*.sublime-project
+*.sublime-workspace

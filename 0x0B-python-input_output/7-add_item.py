@@ -7,10 +7,14 @@ save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
 load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
 
 file = "add_item.json"
-json_list = []
-if os.path.exists(file):
-    json_list = load_from_json_file(file)
-else:
+
+try:
+    if os.path.exists(file):
+        json_list = load_from_json_file(file)
+    else:
+        json_list = []
+
+except (JSONDecodeError, FileNotFoundError):
     json_list = []
 
 argc = len(sys.argv)

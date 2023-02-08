@@ -1,5 +1,4 @@
 #!/bin/bash
-rm add_item.json
 
 cat add_item.json
 

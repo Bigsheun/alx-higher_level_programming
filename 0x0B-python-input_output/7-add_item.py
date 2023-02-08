@@ -14,7 +14,7 @@ try:
     else:
         json_list = []
 
-except (JSONDecodeError, FileNotFoundError):
+except (ValueError, FileNotFoundError):
     json_list = []
 
 argc = len(sys.argv)
